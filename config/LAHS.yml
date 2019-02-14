@@ -1,0 +1,76 @@
+server:
+  port: 3000
+application:
+  domain: juice-sh.op
+  name: 'C.T.H.M. Fish Juice Shop'
+  logo: 'https://ih0.redbubble.net/image.22627927.6424/ap,550x550,16x12,1,transparent,t.u2.png'
+  favicon: 'https://www.favicon.cc/logo3d/413081.png'
+  numberOfRandomFakeUsers: 20
+  showChallengeSolvedNotifications: true
+  showChallengeHints: true
+  showVersionNumber: true
+  theme: blue-lightblue
+  gitHubRibbon: false
+  twitterUrl: 'http://blobfish.net'
+  facebookUrl: 'http://blobfish.net'
+  slackUrl: 'http://blobfish.net'
+  planetOverlayMap: orangemap2k.jpg
+  planetName: Orangeuze
+  recyclePage:
+    topProductImage: fruit_press.jpg
+    bottomProductImage: apple_pressings.jpg
+  altcoinName: FishcCoin
+  cookieConsent:
+    backgroundColor: '#eb6c44'
+    textColor: '#ffffff'
+    buttonColor: '#f5d948'
+    buttonTextColor: '#000000'
+    message: 'This website uses fruit cookies to ensure you get the juiciest tracking experience.'
+    dismissText: 'Me want it!'
+    linkText: 'But me wait!'
+    linkUrl: 'https://www.youtube.com/watch?v=9PnbKL3wuH4'
+  securityTxt:
+    contact: 'mailto:donotreply@owasp-juice.shop'
+    encryption: 'https://pgp.mit.edu/pks/lookup?op=get&search=0x062A85A8CBFBDCDA'
+    acknowledgements: '/#/score-board'
+challenges:
+  safetyOverride: false
+products:
+  -
+    name: 'Apple Juice (1000ml)'
+    price: 1.99
+    description: 'The all-time classic.'
+    image: apple_juice.jpg
+    reviews:
+      - { text: 'One of my favorites!', author: admin }
+# ~~~~~ ... ~~~~~~
+  -
+    name: 'OWASP SSL Advanced Forensic Tool (O-Saft)'
+    description: 'O-Saft is an easy to use tool to show information about SSL certificate and tests the SSL connection according given list of ciphers and various SSL configurations.'
+    price: 0.01
+    image: orange_juice.jpg
+    urlForProductTamperingChallenge: 'https://www.owasp.org/index.php/O-Saft'
+  -
+    name: 'Christmas Super-Surprise-Box (2014 Edition)'
+    description: 'Contains a random selection of 10 bottles (each 500ml) of our tastiest juices and an extra fan shirt for an unbeatable price!'
+    price: 29.99
+    image: undefined.jpg
+    useForChristmasSpecialChallenge: true
+  -
+    name: 'OWASP Juice Shop Sticker (2015/2016 design)'
+    description: 'Die-cut sticker with the official 2015/2016 logo. By now this is a rare collectors item. <em>Out of stock!</em>'
+    price: 999.99
+    image: sticker.png
+    deletedDate: '2017-04-28'
+# ~~~~~ ... ~~~~~~
+  -
+    name: 'OWASP Juice Shop Logo (3D-printed)'
+    description: 'This rare item was designed and handcrafted in Sweden. This is why it is so incredibly expensive despite its complete lack of purpose.'
+    price: 99.99
+    image: 3d_keychain.jpg
+    fileForRetrieveBlueprintChallenge: JuiceShop.stl
+# ~~~~~ ... ~~~~~~
+ctf:
+  showFlagsInNotifications: true
+  showCountryDetailsInNotifications: none
+  countryMapping: ~
